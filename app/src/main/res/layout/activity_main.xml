@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Game Mode" />
+    <RadioGroup
+        android:id="@+id/rg_level"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rb_easy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EASY"/>
+        <RadioButton
+            android:id="@+id/rb_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MEDIUM"/>
+        <RadioButton
+            android:id="@+id/rb_hard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HARD"/>
+    </RadioGroup>
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Deepak_MemoryGame</string>
+    <string name="level"> Level: %1$s</string>
+    <string name="score"> Score: %1$s</string>
+</resources>
